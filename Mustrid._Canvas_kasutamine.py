@@ -34,7 +34,7 @@ def ring():
             y0+=p 
             x1-=p 
             y1-=p 
-            tahvel1.create_oval(x0,y0,x1,y1, fill=choice(colors))
+            tahvel1.create_oval(x0,y0,x1,y1, fill=random.choice(colors))
     tahvel1.grid()
 
 
@@ -225,6 +225,5 @@ r5.grid(row=5, column=0)
 r6.grid(row=6, column=0)
 r7.grid(row=7, column=0)
 
-aken.mainloop()
-
+aken.mainloop() 
 ﻿
